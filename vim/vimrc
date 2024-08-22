@@ -1,0 +1,38 @@
+:set viminfo+=n~/.config/vim/viminfo
+:set directory=~/.config/vim
+nnoremap j gj
+nnoremap k gk
+
+syntax enable
+set number
+set relativenumber
+
+set laststatus=2
+set list
+set listchars=tab:»-,trail:-,extends:»,precedes:«,nbsp:%
+
+set showcmd
+
+set mouse=a
+set autoread
+set hidden
+
+" set cursorline
+" set cursorcolumn
+ 
+set virtualedit=onemore
+set visualbell
+set showmatch
+set wildmode=list:longest
+
+" for search
+set hlsearch
+set wrapscan
+set incsearch
+set ignorecase
+set smartcase
+
+set cindent
+set smartindent
+set autoindent
+

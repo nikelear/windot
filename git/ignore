@@ -1,0 +1,24 @@
+### Windows ###
+[Dd]esktop.ini
+[Tt]humbs.db
+
+### macOS ###
+.DS_Store
+._*
+
+### Vim ###
+.*.swp
+
+### Editor ###
+.vscode/*
+.idea/
+
+### C/C++ ###
+compile_commands.json
+compile_flags.txt
+
+### Logs ###
+*.log
+
+### zsh_compile ###
+*.zwc

@@ -1,0 +1,12 @@
+[include]
+	path = ./local.conf
+[user]
+	name  = nikelear
+	email = nike.lear@gmail.com
+[commit]
+    verbose = true
+[merge]
+    ff = false
+    conflictstyle = diff3
+[pull]
+    ff = only
